@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <h1 id="title">A Reel Trip Survey Form</h1>
+    <p id="description"> Help us to improve our content </p>
+    <form id="survey-form">
+        <div class="form-control">
+            <label id="name-label" for="name">Name</label> 
+            <input type="text" name="name" id="name" placeholder="Enter your name" required="">
+        </div>
+        <div class="form-control">
+            <label id="email-label" for="email">E-mail</label> 
+            <input type="email" name="email" id="email" placeholder="Enter your E-mail" required="">
+        </div>
+        <div class="form-control">
+            <label id="number-label" for="age">Age</label>
+            <input type="number" name="age" id="number" min="16" max="100">
+        </div>
+        <div class="form-control">
+            <p>Which option best describes your current role?</p>
+            <select id="dropdown" name="role">
+                <option value=student>Student</option>
+                <option value=self-employed>Self-Employed</option>
+                <option value=full-time>Full-time worker</option>
+                <option value="part-time">Part-time worker</option>
+                <option value="umemployed">Unemployed</option>  
+            </select>
+        </div>
+        <div class="form=control">
+            <p>Would you recommend A Reel Trip to a friend?</p>
+            <input type="radio" id="definitely" name="recommend" value="definitely">
+            <label for="definitely">Definitely</label>
+            <br>
+            <input type="radio" id="maybe" name="recommend" value="maybe">
+            <label for="Maybe">Maybe</label>
+            <br>
+            <input type="radio" id="notatall" name="recommend" value="notatall">
+            <label for="notatall">Not at All</label>
+        </div>
+        <div class="form-control">                            
+            <label for="comments">Any comments or suggestions?</label>
+            <textarea id="comments" name="comments" rows="4" columns="4">
+            </textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
