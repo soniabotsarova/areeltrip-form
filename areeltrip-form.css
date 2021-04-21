@@ -32,3 +32,22 @@ input, select {
     height: 30px;
     outline: none;
 }
+
+.form-checkbox {
+    display: flex;
+    align-items: flex-end;
+}
+
+.form-checkbox input {
+    margin-right: 10px;
+}
+.form-checkboxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3px;
+    font-size: 18px;
+}
+.form-radio {
+    display:flex;
+    align-items: flex-start;
+}
